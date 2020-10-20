@@ -1,0 +1,189 @@
+body{
+    color:#00305B;
+}
+
+a{
+    text-decoration: none;
+    color:#00305B;
+}
+
+/*navbar stylshiets START*/
+
+.bg-navbar{
+    background-color:#e5e5e5;
+}
+
+.navbar-toggler{
+    color:#00305B;
+    text-decoration-color:#00305B;
+}
+
+#mainmenu{
+}
+
+
+
+/*navbar stylshiets END*/
+
+/*section one styleshiets START*/
+
+#home > .card{
+    width:100%;
+    border:none;
+    height:90vh;
+}
+
+.card-img{
+    height:90vh;
+    z-index:0;
+    background-image: url("img/london-3529954_1920.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+.card-img-overlay{
+    background-color:rgba(0, 48, 91, 0.6);
+}
+
+/*section one styleshiets END*/
+
+#section-2{
+    background-color:#e8f8ff;
+}
+
+.left-row{
+
+}
+
+.square {
+    height: 10px;
+    width: 10px;
+    background-color: #08c9c3;
+}
+
+/* Our vision section styleshiets START */
+
+#our-vision-section{
+    background-color:#00305B;
+    color:white;
+    padding:75px;
+}
+
+/* Our vision section styleshiets END */
+
+#section-img{
+    background-image:url("img/startup-594090_1920.jpg");
+    background-size:cover;
+    height:90vh;
+    background-attachment: fixed;
+}
+
+#Attorneys-section{
+    background-color:#e8f8ff;
+}
+
+.attorneys{
+    padding:75px 75px;
+
+}
+
+.partner-text{
+    color:#3b9ded;
+}
+
+.seperator{
+    height:1px;
+    width:50%;
+    border-radius: 3px;
+    background-color:#3b9ded;
+}
+
+
+#contact-section > .card {
+    width:100%;
+    border:none;
+    height:900px;
+}
+
+#contact-section-image{
+    background-image:url("img/london-4282009_1920.jpg");
+    background-size:cover;
+    height:100%;
+    background-attachment: fixed;
+}
+
+.overlay-2{
+    background-color:rgba(0, 48, 91, 0.8);
+}
+
+.contact-info{
+    font-size:18px;
+}
+
+.email{
+    text-decoration: none;
+    color:white;
+}
+
+.email:hover{
+    color:white;
+    font-weight: 500;
+}
+
+.find-us-link{
+    color:#08c9c3;
+}
+
+.find-us-link:hover{
+    text-decoration: none;
+    color:#08c9c3;
+    font-weight: 500;
+}
+
+.contact-form{
+    width:75%;
+    margin-top:20px;
+}
+
+.submit-button{
+    background-color:#08c9c3;
+    color:white;
+    width:150px;
+}
+
+.contact-form > .d-flex > .form-group{
+    margin-bottom:11px;
+}
+
+#back-to-top{
+    background-color:rgba(0, 48, 91, 1);
+    min-height:75px;
+    color:white;
+}
+
+.up-to-top{
+    color:white;
+    font-size: 20px;
+}
+
+.up-to-top:hover{
+    text-decoration:none;
+    color:white;
+}
+
+.linkedin-squere{
+    background-color:#0E76A8;
+    color:white;
+}
+
+.twitter-squere{
+    background-color:#0084b4;
+    color:white;
+}
+
+@media only screen and (max-width: 988px) {
+    .contact-form {
+        width:100%;
+    }
+}
